@@ -1,0 +1,42 @@
+@import "base/reset";
+// @import 'base/fonts';
+@import "base/mixins";
+@import "base/variables";
+
+body {
+  background-color: $bodybg;
+}
+.saerch {
+  padding: 20px 0px;
+  width: 50%;
+  background-color: rgb(135, 189, 49);
+  float: left;
+  height: 900px;
+  .input {
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+  }
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+  }
+  i {
+    line-height: 40px;
+    width: 30px;
+    background-color: #fff;
+    color: red;
+    border: 1px solid #b5b5b5;
+    text-align: center;
+    border-radius: 5px;
+  }
+}
+
+.saved {
+  padding: 20px 0px;
+  width: 50%;
+  background-color: rgb(155, 89, 89);
+  float: right;
+  height: 900px;
+}
